@@ -2833,6 +2833,30 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
 }
 
+.btn-maple {
+  color: #fff;
+  background-color: #D74111;
+  border-color: #D74111;
+}
+
+.btn.btn-maple:hover, .btn.btn-maple:active, .btn.btn-maple:focus {
+  border-color: #D74111;
+  background: #D74111;
+}
+
+.btn-outline-maple {
+  color: #D74111;
+  background-color: transparent;
+  background-image: none;
+  border-color: #D74111;
+}
+
+.btn-outline-maple:hover {
+  color: #fff;
+  background-color: #D74111;
+  border-color: #D74111;
+}
+
 .btn-outline-primary {
   color: #20c997;
   background-color: transparent;
